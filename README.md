@@ -1,8 +1,7 @@
 # Isomorphic JavaScript Web Development
 This is the code repository for [Isomorphic JavaScript Web Development](https://www.packtpub.com/web-development/isomorphic-javascript-web-development?utm_source=github&utm_medium=repository&utm_campaign=9781785889769), published by [Packt](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
-SharePoint is one of Microsoft's best known web platforms. A loyal audience of developers, IT Pros and power users use it to build line of business solutions.
-The SharePoint Framework (SPFx) is a new option for developing SharePoint solutions. SPFx is still nascent, and many developers are creating full-trust based solutions or add-in solutions, while also having to figure out where and how SPFx fits in the big picture.
+The latest trend in web development, Isomorphic JavaScript, allows developers to overcome some of the shortcomings of single-page applications by running the same code on the server as well as on the client. Leading this trend is React, which, when coupled with Node, allows developers to build JavaScript apps that are much faster and more SEO-friendly than single-page applications.
 ### Instructions and Navigations
 All of the codes are organized as per the chapters, each folder has the codes related to that chapter or appendix.                   
 For example: SharePoint-Development-with-the-SharePoint-Framework/Chapter10/spfx-hello-knockout/src/webparts/helloKnockout/HelloKnockout.template.html
