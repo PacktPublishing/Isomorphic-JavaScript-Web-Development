@@ -1,0 +1,26 @@
+{
+  "src_folders" : ["src/tests/it/"],
+
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "/Users/talabes/Documents/MyProjects/selenium-server-standalone-3.4.0.jar"
+  },
+
+  "test_runner" : "mocha",
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://localhost",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+/*
+ * Learning Isomorphic Web Application Development
+ * Copyright © 2016 Konstantin Tarkus, Packt Publishing
+ */
+
+@import '../variables.scss';
+
+.root {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  flex-direction: column;
+}
+
+.header {
+  z-index: 3;
+  display: flex;
+  width: 100%;
+  min-height: 64px;
+  max-height: 1000px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+  flex-direction: column;
+  background: url(./header.jpg) center / cover;
+  border: none;
+  box-shadow: $shadow-2dp;
+  transition-timing-function: $animation-curve-default;
+  transition-duration: $animation-duration-default;
+
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}

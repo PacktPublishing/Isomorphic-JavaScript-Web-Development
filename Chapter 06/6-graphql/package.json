@@ -1,0 +1,74 @@
+{
+  "private": true,
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "rules": {
+      "comma-dangle": 0,
+      "id-length": [
+        2,
+        {
+          "exceptions": [
+            "i",
+            "_",
+            "x",
+            "s"
+          ]
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "babel-runtime": "6.26.0",
+    "bluebird": "3.5.0",
+    "express": "4.15.4",
+    "express-graphql": "0.6.11",
+    "faker": "4.1.0",
+    "graphiql": "0.11.3",
+    "graphql": "0.11.3",
+    "moment": "2.18.1",
+    "node-fetch": "1.5.1",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "sequelize": "4.8.3",
+    "sqlite3": "3.1.11",
+    "whatwg-fetch": "2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "6.7.5",
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-runtime": "6.7.5",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-stage-0": "6.5.0",
+    "browser-sync": "2.12.3",
+    "css-loader": "0.28.7",
+    "del": "3.0.0",
+    "eslint": "4.6.1",
+    "eslint-config-airbnb": "15.1.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.3.0",
+    "extend": "3.0.0",
+    "file-loader": "0.11.2",
+    "gaze": "1.0.0",
+    "ncp": "2.0.0",
+    "postcss": "6.0.11",
+    "postcss-import": "10.0.0",
+    "postcss-loader": "2.0.6",
+    "precss": "2.0.0",
+    "style-loader": "0.18.2",
+    "url-loader": "0.5.7",
+    "webpack": "3.5.6",
+    "webpack-dev-middleware": "1.12.0",
+    "webpack-hot-middleware": "2.10.0"
+  },
+  "scripts": {
+    "lint": "eslint components core data routes test tools client.js server.js",
+    "build": "babel-node tools/run build",
+    "serve": "node build/server.js"
+  }
+}

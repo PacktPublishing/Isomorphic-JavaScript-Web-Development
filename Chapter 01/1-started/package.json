@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "express": "4.15.4",
+    "moment": "2.18.1",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "7.1.4",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "del": "3.0.0",
+    "eslint": "4.7.0",
+    "eslint-config-airbnb": "15.1.0",
+    "eslint-plugin-react": "7.3.0",
+    "extend": "3.0.1",
+    "gaze": "1.1.2",
+    "ncp": "2.0.0",
+    "node-style-loader": "0.0.1-alpha",
+    "postcss-loader": "2.0.6",
+    "precss": "2.0.0",
+    "webpack": "3.6.0"
+  },
+  "scripts": {
+    "lint": "eslint components core data routes test tools",
+    "build": "babel-node tools/run build",
+    "serve": "node build/server.js"
+  }
+}

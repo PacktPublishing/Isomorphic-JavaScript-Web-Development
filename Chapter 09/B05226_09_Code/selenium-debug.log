@@ -1,0 +1,46 @@
+12:22:34.652 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+12:22:34.653 INFO - Launching a standalone Selenium Server
+2017-10-08 12:22:34.672:INFO::main: Logging initialized @250ms to org.seleniumhq.jetty9.util.log.StdErrLog
+12:22:34.726 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+12:22:34.726 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+12:22:34.726 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:22:34.726 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+12:22:34.726 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:22:34.727 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-10-08 12:22:34.770:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-10-08 12:22:34.810:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@4c70fda8{/,null,AVAILABLE}
+2017-10-08 12:22:34.851:INFO:osjs.AbstractConnector:main: Started ServerConnector@204f30ec{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-10-08 12:22:34.853:INFO:osjs.Server:main: Started @431ms
+12:22:34.853 INFO - Selenium Server is up and running
+12:22:35.289 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+12:22:35.312 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:22:35.334 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 21776
+Only local connections are allowed.
+12:22:36.462 INFO - Detected dialect: OSS
+12:22:36.491 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:22:36.506 INFO - Executing: [get: http://localhost:8080])
+12:22:36.805 INFO - Done: [get: http://localhost:8080]
+12:22:36.813 INFO - Executing: [find elements: By.cssSelector: body])
+12:22:36.849 INFO - Done: [find elements: By.cssSelector: body]
+12:22:36.858 INFO - Executing: [find element: By.cssSelector: .repos-link])
+12:22:36.882 INFO - Done: [find element: By.cssSelector: .repos-link]
+12:22:36.886 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (1fe1caaeebfe59fa95003c6b515f1bb2)] -> css selector: .repos-link]])
+12:22:36.951 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (1fe1caaeebfe59fa95003c6b515f1bb2)] -> css selector: .repos-link]]
+12:22:36.957 INFO - Executing: [find elements: By.cssSelector: .repos-title])
+12:22:36.993 INFO - Done: [find elements: By.cssSelector: .repos-title]
+12:22:36.997 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (1fe1caaeebfe59fa95003c6b515f1bb2)] -> css selector: .repos-title]])
+12:22:37.020 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (1fe1caaeebfe59fa95003c6b515f1bb2)] -> css selector: .repos-title]]
+12:22:37.025 INFO - Executing: [get current url])
+12:22:37.032 INFO - Done: [get current url]
+12:22:37.038 INFO - Executing: [get: http://localhost:8080/repos])
+12:22:37.191 INFO - Done: [get: http://localhost:8080/repos]
+12:22:37.200 INFO - Executing: [find elements: By.cssSelector: .repos-title])
+12:22:37.210 INFO - Done: [find elements: By.cssSelector: .repos-title]
+12:22:37.216 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (1fe1caaeebfe59fa95003c6b515f1bb2)] -> css selector: .repos-title]])
+12:22:37.237 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (1fe1caaeebfe59fa95003c6b515f1bb2)] -> css selector: .repos-title]]
+12:22:37.243 INFO - Executing: [delete session: 3be12871-e6f9-42dc-ba72-46768ba718a3])
+12:22:37.426 INFO - Done: [delete session: 3be12871-e6f9-42dc-ba72-46768ba718a3]

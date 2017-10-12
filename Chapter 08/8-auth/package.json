@@ -1,0 +1,33 @@
+{
+  "name": "auth-chapter",
+  "version": "1.0.0",
+  "scripts": {
+    "start:dev:client": "webpack-dev-server --inline --content-base public/ --history-api-fallback",
+    "start:dev:server": "webpack && babel-node serverWithInitialData.js",
+    "start:prod:client": "webpack -p",
+    "start:prod:server": "webpack && babel-node serverWithInitialData.js"
+  },
+  "dependencies": {
+    "express": "4.15.4",
+    "jquery": "3.2.1",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-redux": "5.0.6",
+    "react-router": "4.2.0",
+    "react-router-config": "1.0.0-beta.4",
+    "react-router-dom": "4.2.2",
+    "redux": "3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "http-server": "0.10.0",
+    "source-map-support": "0.4.18",
+    "webpack": "3.5.6",
+    "webpack-dev-server": "2.7.1"
+  }
+}

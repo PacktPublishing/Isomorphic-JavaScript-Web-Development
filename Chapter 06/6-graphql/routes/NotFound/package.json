@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "NotFound",
+  "main": "./NotFound.js"
+}

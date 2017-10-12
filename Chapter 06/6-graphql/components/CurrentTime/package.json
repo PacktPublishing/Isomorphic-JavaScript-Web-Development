@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "CurrentTime",
+  "main": "./CurrentTime.js"
+}
