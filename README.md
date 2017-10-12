@@ -1,4 +1,4 @@
-# SharePoint Development with the SharePoint Framework
+# Isomorphic JavaScript Web Development
 This is the code repository for [Isomorphic JavaScript Web Development](https://www.packtpub.com/web-development/sharepoint-development-sharepoint-framework?utm_source=github&utm_medium=repository&utm_campaign=9781787121430), published by [Packt](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 SharePoint is one of Microsoft's best known web platforms. A loyal audience of developers, IT Pros and power users use it to build line of business solutions.
