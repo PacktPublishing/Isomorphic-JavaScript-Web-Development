@@ -4,15 +4,14 @@ This is the code repository for [Isomorphic JavaScript Web Development](https://
 The latest trend in web development, Isomorphic JavaScript, allows developers to overcome some of the shortcomings of single-page applications by running the same code on the server as well as on the client. Leading this trend is React, which, when coupled with Node, allows developers to build JavaScript apps that are much faster and more SEO-friendly than single-page applications.
 ### Instructions and Navigations
 All of the codes are organized as per the chapters, each folder has the codes related to that chapter or appendix.                   
-For example: SharePoint-Development-with-the-SharePoint-Framework/Chapter10/spfx-hello-knockout/src/webparts/helloKnockout/HelloKnockout.template.html
+For example: Isomorphic-JavaScript-Web-Development/Chapter 04/4-browsersync/components/App.js
 
 The code will look like the following:
 ```
-<span class="ms-font-xl ms-fontColor-white">Welcome to SharePoint!</span>
-          <p class="ms-font-l ms-fontColor-white">Customize SharePoint experiences using Web Parts.</p>
-          <p class="ms-font-l ms-fontColor-white" data-bind="text:description"></p>
-          <a href="https://aka.ms/spfx" data-bind="attr: {class:buttonClass}">
-<span data-bind="attr: {class:labelClass}">Learn more</span>
+  constructor(props) {
+    super(props);
+    this.state = { time: null };
+  }
 ```
 
 ## Related Products
