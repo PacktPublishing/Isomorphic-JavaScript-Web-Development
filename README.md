@@ -1,5 +1,5 @@
 # Isomorphic JavaScript Web Development
-This is the code repository for [Isomorphic JavaScript Web Development](https://www.packtpub.com/web-development/sharepoint-development-sharepoint-framework?utm_source=github&utm_medium=repository&utm_campaign=9781787121430), published by [Packt](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from start to finish.
+This is the code repository for [Isomorphic JavaScript Web Development](https://www.packtpub.com/web-development/isomorphic-javascript-web-development?utm_source=github&utm_medium=repository&utm_campaign=9781785889769), published by [Packt](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 SharePoint is one of Microsoft's best known web platforms. A loyal audience of developers, IT Pros and power users use it to build line of business solutions.
 The SharePoint Framework (SPFx) is a new option for developing SharePoint solutions. SPFx is still nascent, and many developers are creating full-trust based solutions or add-in solutions, while also having to figure out where and how SPFx fits in the big picture.
@@ -19,13 +19,13 @@ The code will look like the following:
 ## Related Products
  
   
-* [SharePoint 2013 Development Using C# - Part 1: The Essentials of Application Development [Video]](https://www.packtpub.com/big-data-and-business-intelligence/sharepoint-2013-development-using-c-part-1-essentials-application?utm_source=github&utm_medium=repository&utm_campaign=9781787126350)
+* [Mastering MEAN Web Development: Expert Full Stack JavaScript [Video]](https://www.packtpub.com/web-development/mastering-mean-web-development-expert-full-stack-javascript-video?utm_source=github&utm_medium=repository&utm_campaign=9781785882159)
   
   
-* [Microsoft SharePoint 2010 Development with Visual Studio 2010 Expert Cookbook](https://www.packtpub.com/application-development/microsoft-sharepoint-2010-development-visual-studio-2010-expert-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781849684583)
+* [Isomorphic Go](https://www.packtpub.com/web-development/isomorphic-go?utm_source=github&utm_medium=repository&utm_campaign=9781788394185)
   
   
-* [SharePoint 2013 WCM Advanced Cookbook](https://www.packtpub.com/application-development/sharepoint-2013-wcm-advanced-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781849686587)
+* [JavaScript by Example](https://www.packtpub.com/web-development/javascript-example?utm_source=github&utm_medium=repository&utm_campaign=9781788293969)
   
  
 
