@@ -3,6 +3,7 @@
  * Copyright © 2016 Konstantin Tarkus, Packt Publishing
  */
 
+import fs from 'fs';
 import del from 'del';
 import webpack from 'webpack';
 import Promise from 'bluebird';
@@ -10,11 +11,12 @@ import run from './run';
 import webpackConfig from './webpack.config';
 
 async function clean() {
-  await del(['build/*', '!build/.git'], { dot: true });
+  await del(['build/*']);
 }
 
 async function copy() {
   const ncp = Promise.promisify(require('ncp'));
+  if (!fs.existsSync('build')) fs.mkdirSync('build');
   await ncp('public', 'build/public');
   await ncp('package.json', 'build/package.json');
 }
